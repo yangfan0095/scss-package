@@ -1,0 +1,12 @@
+$color-list:(
+(1,#4c84ff),
+) !default;
+
+@each $label,$value in $color-list {
+    .col-#{$label} {
+        color: $value
+    };
+    .bg-#{$label} {
+        background:$value;
+    }
+}

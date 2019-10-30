@@ -1,0 +1,17 @@
+$minFontSize : 0 !default;
+$maxFontSize : 50 !default;
+$fontSizeList: 100,200,300,400,500,600 !default;
+@for $num from $minFontSize through $maxFontSize {
+    .f-s-#{$num}{
+        font-size:#{$num}px;
+    }
+    .l-h-#{$num}{
+        line-height:#{$num}px;
+    }
+}
+@each $num in $fontSizeList{
+    .f-w-#{$num}{
+        font-weight:#{$num};
+    }
+
+}

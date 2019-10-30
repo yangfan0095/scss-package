@@ -1,0 +1,62 @@
+.display-none{
+    display:none;
+}
+.hidden{
+    visibility:hidden;
+}
+.pre-wrap{
+    white-space: pre-wrap;
+}
+.pre-line{
+    white-space: pre-line;
+}
+.bold{
+    font-weight:bold;
+}
+.white-bg{
+    background:white;
+}
+.overflow-hidden{
+    overflow:hidden;
+}
+.inline-block{
+    display:inline-block;
+}
+.border-box{
+    box-sizing:border-box;
+}
+.f-l{
+    float:left;
+}
+.f-r{
+    float:right;
+}
+.display-table{
+    display:table;
+}
+.display-table-cell{
+    display:table-cell;
+}
+//溢出隐藏样式
+.ellipsis{
+    overflow: hidden;
+    text-overflow:ellipsis;
+    white-space: nowrap;
+}
+//hover背景色
+.hover-bg:hover{
+    background-color:#f4f9ff;
+}
+//鼠标显示可点击样式
+.pointer{
+    cursor: pointer;
+}
+.center{
+    text-align:center;
+}
+.text-right{
+    text-align:right;
+}
+.text-left{
+    text-align:left;
+}

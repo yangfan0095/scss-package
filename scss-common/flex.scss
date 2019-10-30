@@ -1,0 +1,72 @@
+//flex定位问题
+
+$minFlex : 0 !default;
+$maxFlex : 10 !default;
+.flex{
+    display:flex;
+}
+.flex-row{
+    display:flex;
+    flex-direction:row;
+}
+.flex-col{
+    display:flex;
+    flex-direction:column;
+}
+.flex-wrap{
+    display:flex;
+    flex-wrap:wrap;
+}
+.flex-no-wrap{
+    flex-wrap:nowrap;
+}
+.flex-center{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+.flex-stretch{
+    display:flex;
+    align-items: stretch;
+    justify-content: center;
+}
+.flex-right{
+    display:flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.flex-left{
+    display:flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+.flex-space-b{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.flex-space-a{
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.flex-end{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+}
+.flex-top{
+    align-items:flex-start;
+}
+.flex-bottom{
+    align-items:flex-end;
+}
+.flex-start{
+    justify-content: flex-start;
+}
+@for $num from $minFlex through $maxFlex {
+    .flex#{$num} {
+        flex: #{$num};
+    }
+}

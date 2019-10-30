@@ -1,0 +1,14 @@
+{
+  "name": "scss-common",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.scss",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "scss-common"
+  ],
+  "author": "yangfan0095",
+  "license": "ISC"
+}

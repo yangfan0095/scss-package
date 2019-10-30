@@ -1,0 +1,39 @@
+$minBrs : 0 !default;
+$maxBrs : 150 !default;
+$brsList : 50,60 !default;
+
+@for $num from $minBrs through $maxBrs {
+    .brs#{$num}{
+        border-radius: #{$num}px;
+    }
+    .brs-t-l#{$num}{
+        border-top-left-radius: #{$num}px !important;
+    }
+    .brs-t-r#{$num}{
+        border-top-right-radius: #{$num}px !important;
+    }
+    .brs-b-l#{$num}{
+        border-bottom-left-radius: #{$num}px !important;
+    }
+    .brs-b-r#{$num}{
+        border-bottom-right-radius: #{$num}px !important;
+    }
+}
+
+@each $num in $heightWidthList{
+    .brs#{$num}{
+        border-radius: #{$num}px;
+    }
+    .brs-t-l#{$num}{
+        border-top-left-radius: #{$num}px !important;
+    }
+    .brs-t-r#{$num}{
+        border-top-right-radius: #{$num}px !important;
+    }
+    .brs-b-l#{$num}{
+        border-bottom-left-radius: #{$num}px !important;
+    }
+    .brs-b-r#{$num}{
+        border-bottom-right-radius: #{$num}px !important;
+    }
+}
