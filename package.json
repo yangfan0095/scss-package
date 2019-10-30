@@ -1,18 +1,22 @@
 {
-  "name": "scss-common",
-  "version": "1.0.0",
-  "description": "scss-common",
+  "name": "scss-package",
+  "version": "1.0.1",
+  "description": "common scss package, 一个公共scss库 解决css与业务组件解耦问题",
   "main": "index.scss",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com:yangfan0095/scss-common.git"
+    "url": "git+https://github.com/yangfan0095/scss-common.git"
   },
   "keywords": [
-    "scss-common"
+    "scss-package common scss"
   ],
   "author": "yangfan0095",
-  "license": "ISC"
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yangfan0095/scss-common/issues"
+  },
+  "homepage": "https://github.com/yangfan0095/scss-common#readme"
 }
