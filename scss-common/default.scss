@@ -1,4 +1,12 @@
 // 自定义scss 变量设置
+
+
+// border-radis 配置
+// $minBrs : 0;
+// $maxBrs : 150;
+// $brsList : 50,60;
+
+// // 配置颜色
 // $color-list:(
 // (0,#fff),
 // (1,#333),
@@ -6,4 +14,39 @@
 // (3,#999),
 // );
 
-// $maxHeightWidth : 200;
+// // 配置flex
+// $minFlex : 0;
+// $maxFlex : 10;
+
+// // 配置字体大小
+// $minFontSize : 0;
+// $maxFontSize : 50;
+// $fontSizeList: 100,200,300,400,500,600;
+
+// // 配置宽高
+// $minHeightWidth : 0;
+// $maxHeightWidth : 150;
+// $heightWidthList : 160,170,180,190,200,250,300,350,400,45,500,550,600,700,800,900;
+
+// // 配置间距
+// $minMarginPadding : 0 ;
+// $maxMarginPadding : 30 ;
+// $marginPaddingList : 40,50,60,70,80;
+
+// // 配置距离
+// $minPosition : 0;
+// $maxPosition : 50;
+// $positionList :60,70,80,90,100;
+
+
+
+
+
+
+
+
+
+
+
+
+$maxHeightWidth : 200;
