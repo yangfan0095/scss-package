@@ -1,6 +1,6 @@
 {
   "name": "scss-package",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "common scss package, 一个公共scss库 解决css与业务组件解耦问题",
   "main": "index.scss",
   "scripts": {
